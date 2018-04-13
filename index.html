@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>旅游网站</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script type="text/javascript">
+window.onload=function(){
+	boxStyle();
+};
+function boxStyle(){
+	var f=document.getElementsByClassName("fourth-section");
+	var icons=f[0].getElementsByTagName("i");
+	for(var i=0,l=icons.length;i<l;i++){
+     icons[i].onmouseover=function(){
+     	this.style.color="#fff";
+     	this.style.backgroundColor="#82b62d";
+     }
+     icons[i].onmouseout=function(){
+     	this.style.color="#82b62d";
+     	this.style.backgroundColor="#fff";
+     }
+	}
+	}
+</script>
+	
+</head>
+<body>
+<div class="header">
+		<div class="header_logo">
+			<h1><a href="#"><span>njoy</span>travels</a></h1>
+		</div>
+		<div class="contact">
+			<ul><li><i class="fa fa-volume-control-phone" aria-hidden="true">:+1 234 567 9871</i></li>
+			    <li><i class="fa fa-envelope" aria-hidden="true"></i>:<a href="mailto:mail@example.com">mail@example.com</a></li>
+			</ul>
+		</div>
+		<div class="header_text">
+			<ul><li><a href="#">Home</a></li>
+			    <li><a href="#">About</a></li>
+			    <li><a href="#">Icon</a></li>
+			    <li><a href="#">Gallery</a></li>
+			    <li><a href="#">Contact</a></li></ul>
+		</div>
+		<div class="icons">
+			<ul><li><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+			    <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+			    <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+			    <li><a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+</div>
+
+<div id="myCarousel" class="carousel slide">
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+	</ol>   
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="images/1.jpg" alt="First slide">
+			<div class="img-text">
+			<h6>varius</h6>
+			<h3>Your Holiday!</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet massa in eros euismod suscipit at ut augue. Donec imperdiet risus vel sem luctus, a viverra augue ornare.</p>
+			 <button type="button" class="btn btn-success">More</button>
+            </div>
+
+		</div>
+		<div class="item">
+			<img src="images/5.jpg" alt="Second slide">
+			<div class="img-text">
+			<h6>Lorem</h6>
+			<h3>Your Trip!</h3>
+			<p>Mauris ac diam vestibulum, vestibulum risus tincidunt, accumsan neque. Praesent pellentesque ullamcorper scelerisque. Nam vestibulum augue quam, ac hendrerit.</p>
+			<button type="button" class="btn btn-success">More</button>
+		    </div>
+		</div>
+	</div>
+	<!-- 轮播（Carousel）导航 -->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div> 
+
+<div class="third-section">
+	<h1>WELCOME</h1>
+
+	<div class="text1">
+		<h5>Lorem ipsum dolor sit amet</h5>
+		<p>Ut fringilla euismod sagittis. Cras semper ante sapien, in ornare nisi euismod eu. Morbi dapibus est non leo vestibulum aliquet. Sed viverra nisi pharetra, scelerisque nisi eu, tempus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In pellentesque, lectus at auctor luctus, lacus nibh dignissim ante, sed maximus arcu odio vitae lectus.</p>
+	    <p>Phasellus vestibulum velit sed nisi ultricies scelerisque. Vivamus ligula mauris, euismod in dictum id, tempus ac odio. Etiam tristique felis eros.</p>
+    <button type="button" class="btn btn-success">More</button>
+	</div>
+    <div class="img1"></div>
+	
+	<div class="img2"></div>
+	<div class="third-section-text text2">
+		<h5>Lorem ipsum dolor sit amet</h5>
+		<p>Ut fringilla euismod sagittis. Cras semper ante sapien, in ornare nisi euismod eu. Morbi dapibus est non leo vestibulum aliquet. Sed viverra nisi pharetra, scelerisque nisi eu, tempus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In pellentesque, lectus at auctor luctus, lacus nibh dignissim ante, sed maximus arcu odio vitae lectus.</p>
+		<p>Phasellus vestibulum velit sed nisi ultricies scelerisque. Vivamus ligula mauris, euismod in dictum id, tempus ac odio. Etiam tristique felis eros, tincie.</p>
+		<button type="button" class="btn btn-success">More</button>
+	</div>
+</div>
+
+<div class="fourth-section">
+	<h1>SERVICE</h1>
+	<div class="iconsgroup1">
+		<i class="fa fa-thumbs-down fa-3x" aria-hidden="true"></i>
+		<i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+		<i class="fa fa-tag fa-3x" aria-hidden="true"></i>
+		<div class="ftext1">
+			<h5>Phasellus suscipit</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+		</div>
+		<div class="ftext2">
+			<h5>Phasellus suscipit</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+		</div>
+		<div class="ftext3">
+			<h5>Phasellus suscipit</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+		</div>
+	</div>
+	<div class="iconsgroup2">
+		<i class=" fa fa-heartbeat fa-3x" aria-hidden="true"></i>
+		<i class=" fa fa-thumbs-up fa-3x" aria-hidden="true"></i>
+		<i class= "fa fa-glass fa-3x" aria-hidden="true"></i>
+		<div class="ftext1">
+			<h5>Phasellus suscipit</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+		</div>
+		<div class="ftext2">
+			<h5>Phasellus suscipit</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+		</div>
+		<div class="ftext3">
+			<h5>Phasellus suscipit</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+		</div>
+	</div>
+</div>
+<div class="fifth-section">
+	<h1>NEWS</h1>
+	<img src="images/a3.jpg" class="img3">
+	<div>
+		<ul>
+			<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Admin</a></li>
+			<li><i class="fa fa-calendar" aria-hidden="true"></i>May 1,2018</li>
+		</ul>
+		<p><a href="#">Aenean id lorem <br>efficitur, porttitor<br> eros dapibus</a>
+       </p>
+       <button type="button" class="btn btn-success">More</button>
+	</div>
+</div>
+<div class="sixth-section">
+<div class="sixth1">
+	<h1> JOIN THE CLUB！</h1>
+	<form action="#" method="post">
+	<input type="text" placeholder="Subscribe">
+	<button class="btn1">
+		<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+	</button>
+	</form>
+</div>
+<div class="pic">
+		<ul>
+			<li><img src="images/g4.jpg"></li>
+			<li><img src="images/g5.jpg"></li>
+			<li><img src="images/g6.jpg"></li>
+		</ul>
+	</div>
+<div class="footer">
+	<p>Copyright &copy; 2017.Company name All rights reserved.</p>
+
+</div>
+</div>
+</body>
+</html>
